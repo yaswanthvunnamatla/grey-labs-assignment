@@ -1,0 +1,83 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #000080;
+    transition: left 0.3s ease;
+    z-index: 1000;
+    color: yellow;
+  }
+  
+  .sidebar.show {
+    left: 0;
+  }
+  
+  .sidebar-content {
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    
+  }
+  
+  .close-btn {
+    background-color:red;
+    height: 30px;
+    width: 60px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .sidebar-body {
+    overflow-y: auto;
+    height: calc(100% - 60px);
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'],
+  input[type='date'],
+  input[type='time'] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  button {
+    margin-top: 15px;
+  }
+  .btn-primary{
+    background-color: green;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color:white;
+  }
+  .btn-danger{
+    background-color: red;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color:white;
+    margin-left: 10px;
+  }
+  .btn-event{
+    border-radius: 8px;
+  }
