@@ -34,12 +34,14 @@
 
 @media (max-width: 767px) {
   .calender-container {
-    flex-direction: row;
-    width: 125%;
+    flex-direction: column;
+    width: 150%;
+    height: 50%;
+    padding: 0%;
   }
 
   .btn-container {
-    margin-right: 8%;
+    margin-left: 40%;
   }
 
   .btn-event {
