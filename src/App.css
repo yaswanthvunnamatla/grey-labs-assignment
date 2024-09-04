@@ -31,6 +31,23 @@
     height: 50px;
   }
 }
+
+@media (max-width: 767px) {
+  .calender-container {
+    flex-direction: row;
+    width: 125%;
+  }
+
+  .btn-container {
+    margin-right: 8%;
+  }
+
+  .btn-event {
+    width: 100px;
+    height: 50px;
+  }
+}
+
 .calender-container{
   background-color: rgb(208, 230, 244);
   font-weight: bold;
